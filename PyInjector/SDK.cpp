@@ -9,7 +9,7 @@ _PyRun_SimpleStringFlags PyRun_SimpleStringFlags;
 void SDK::InitCPython()
 {
     HMODULE hPython = 0x0;
-    const char* pythonVersions[] = { "37", "38", "39", "310", "311", "312" };
+    const char* pythonVersions[] = { "27", "37", "38", "39", "310", "311", "312" };
     const int numVersions = sizeof(pythonVersions) / sizeof(pythonVersions[0]);
 
     for (int i = 0; i < numVersions; ++i) {
